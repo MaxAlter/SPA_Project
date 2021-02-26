@@ -1,0 +1,58 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-height: 60px;
+  border-top: #e5e5e5 solid 1px;
+}
+
+.footer__text {
+  margin: 0;
+  color: $text-color;
+  font-family: $font-family-montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: $link-color;
+}
+
+.footer__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__btn--email {
+  font-family: $font-family-roboto;
+  font-style: italic;
+  color: #cccccc;
+  font-weight: 400;
+  width: 230px;
+  height: 40px;
+  border: #e5e5e5 solid 1px;
+  font-size: 14px;
+  padding-left: 13px;
+  outline: none;
+}
+
+.footer__btn--input {
+  color: $color-fff;
+  font-family: $font-family-montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  background-color: $bg-color;
+  cursor: pointer;
+  outline: none;
+}

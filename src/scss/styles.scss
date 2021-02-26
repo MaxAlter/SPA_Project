@@ -1,0 +1,11 @@
+/* Import partials below */
+@import 'helpers/variables';
+@import 'helpers/extras';
+@import 'helpers/normalize';
+@import 'helpers/base';
+
+/* Components */
+@import 'components/service';
+@import 'components/header';
+@import 'components/team';
+@import 'components/footer';

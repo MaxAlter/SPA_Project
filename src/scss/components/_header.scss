@@ -1,0 +1,125 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(252, 227, 138, 0.9)),
+      to(rgba(243, 129, 129, 0.9))
+    ),
+    url(../img/heder.img_15@2x-min.png);
+  background-image: -o-linear-gradient(
+      bottom,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url(../img/heder.img_15@2x-min.png);
+  background-image: linear-gradient(
+      to top,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url(../img/heder.img_15@2x-min.png);
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  margin-bottom: 45px;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 179px;
+  padding-top: 28px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nav__logo {
+  font-weight: 900;
+  font-size: 30px;
+  color: $color-fff;
+  font-family: $font-family-roboto;
+  text-decoration: none;
+}
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 623px;
+}
+
+.nav__list-link {
+  font-size: 14px;
+  font-family: $font-family-montserrat;
+  color: $color-fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 11px;
+
+  &:hover {
+    width: 100%;
+    color: #fce38a;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    border-bottom: 3px solid #fce38a;
+  }
+}
+
+.nav__icon {
+  width: 18px;
+  height: 18px;
+  fill: $color-fff;
+  &:hover,
+  &:focus {
+    fill: #fce38a;
+  }
+}
+
+.page__header--title {
+  font-family: $font-family-kaushan;
+  font-size: 72px;
+  color: $color-fff;
+  text-align: center;
+  padding-bottom: 42px;
+}
+.page__header--sub-title {
+  color: $color-fff;
+  font-family: $font-family-montserrat;
+  letter-spacing: -0.04em;
+  font-size: 150px;
+  height: 248px;
+  line-height: 0.85em;
+  margin: 0 auto;
+  width: 802px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 123px;
+}
+.page__header--btn {
+  display: block;
+  font-size: 14px;
+  margin: 0 auto;
+  font-family: $font-family-montserrat;
+  background-color: transparent;
+  outline: none;
+  width: 163px;
+  padding: 11px 30px;
+  font-weight: 600;
+  border: 2px solid $color-fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: $color-fff;
+}
